@@ -1,4 +1,4 @@
-'''<!--Começando com a estrutura básica em HTML-->
+<!--Começando com a estrutura básica em HTML-->
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -27,4 +27,4 @@
 
     </header>
 </body>
-</html>'''
+</html>
