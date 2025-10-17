@@ -1,7 +1,7 @@
 # Cria-o-de-site-para-ONG-ficticia
 # Nesse projeto estou criando uma pagina web em html para a divulgação de uma ONG imaginária, utilizando formulários e inputs para a ferramenta de cadastro, links para alternar entre as páginas e imagens para melhor imersão visual.
 
-# Començando com a página inicial do nosso site, onde as pessoas poderam se informar a respeito da nossa ONG ficticia
+Començando com a página inicial do nosso site, onde as pessoas poderam se informar a respeito da nossa ONG ficticia
 
 <!--Começando com a estrutura básica em HTML-->
 <!DOCTYPE html>
@@ -35,7 +35,7 @@
 </html>
 
 
-# Agora vamos mostrar a ferramentar de cadastro do nosso site, onde vamos poder ver como se tornar um voluntário e como fazer uma doação.
+Agora vamos mostrar a ferramentar de cadastro do nosso site, onde vamos poder ver como se tornar um voluntário e como fazer uma doação.
 
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -66,7 +66,7 @@
 </body>
 </html>
 
-# E, por fim, vamos criar uma ferramenta de cadastro, onde as pessoas poderão se voluntariar.
+E, por fim, vamos criar uma ferramenta de cadastro, onde as pessoas poderão se voluntariar.
 
 <!DOCTYPE html>
 <html lang="pt-br">
