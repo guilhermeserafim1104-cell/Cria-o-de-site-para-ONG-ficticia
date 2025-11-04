@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;/*tipo da fonte*/
+    line-height: 1.6;/*espaço de uma linha para a outra*/
+}
+
+header{
+    background: linear-gradient(135deg, #667eea, #764ba2);/*cor do banner de fundo*/
+    background-size: 100%;
+    padding: 1rem 0;/*preenchimento dos links*/
+    position: fixed;/*o cabeçalho vai ficar fixado em sua posição*/
+    width: 100%;/*largura do cabeçalho*/
+    top: 0;/*o cabeçalho vai ficar no topo*/
+    z-index: 1000;/*o cabeçalho vai sobrepor qualquer outro elemento*/
+}
+
+header a{
+    margin: 0 auto;
+    color: white;
+    text-decoration: none;
+    width: 150px;
+    display: flex;
+    opacity: 0.8s;
+    font-size: 20px;
+    font-weight: bold;
+    justify-content: space-between;/*cria um espaçamento entre os links*/
+    transition: transform 0.2s ease;
+}
+
+header a:hover{
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 
+        0 0 30px white,
+        0 0 30px white,
+        0 0 30px white;
+    transform: scale(1.2) ;
+}
+
+section h2{
+    font-size: 48px;
+}
+
+section{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 110px;
+    font-size: 32px;
+    text-align: center;
+    background: linear-gradient(350deg, rgb(255, 230, 177), white);
+    background-size: cover;
+}
