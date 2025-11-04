@@ -1,0 +1,63 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;/**/
+  color: #333;/**/
+}
+
+header{
+  background: linear-gradient(900deg, aquamarine, rgb(0, 204, 255));
+  color: black;
+  display: center;
+}
+
+header a{
+  color: black;
+  text-decoration: none;
+  transition: opacity 0.3s;
+  font-weight: 600;
+  opacity: 0.8s;
+  padding: 10px;
+  font-size: 20px;
+  transition: transform 0.2s ease;
+}
+
+header a:hover{
+  font-size: 24px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-shadow: 
+    0 0 30px white,
+    0 0 30px white,
+    0 0 30px white;
+  transform: scale(1.2);
+}
+
+header h1{
+  font-size: 48px;
+  border: #333;
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+  font-size: 32px;
+}
+
+p{
+  text-align: center;
+  font-size: 24px;
+}
+
+.paragrafo{
+  text-align: center;
+  font-size: 24px;
+  background: linear-gradient(90deg, rgb(143, 154, 255), white);
+  background-size: cover;
+}
