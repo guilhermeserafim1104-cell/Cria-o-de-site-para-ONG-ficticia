@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+}
+
+header h1{
+    font-size: 48px;
+}
+
+header{
+    background: linear-gradient(135deg, rgb(255, 37, 92), rgb(252, 255, 91));
+    display: block;
+}
+
+header a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    opacity: 0.8s;
+    font-size: 20px;
+    transition: transform 0.2s ease;
+}
+
+header a:hover{
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    text-shadow:
+        0 0 30px white,
+        0 0 30px white,
+        0 0 30px white;
+    transform: scale(1.2);
+}
