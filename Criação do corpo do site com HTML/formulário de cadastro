@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAF-Cadastro</title>
+</head>
+<body>
+    <main>
+        <header>
+            <button><a href="index.html">Página inicial</a></button>  <button><a href="projetos.html">Projetos</a></button>  <button><a href="cadastro.html">Cadastro</a></button>
+        </header>
+            <br><br>
+        <section>
+            <h2>Formaulário</h2>
+            <form>
+                <legend> Nome Completo:</legend>
+                <label for="nome"></label>
+                <input type="text" id="nome" required>
+
+                <br><br>
+                
+                <legend> CPF</legend>
+                <label for="cpf"></label>
+                <input type="text" pattern="\d{3}\.\d{3}\.\d{3}\-\d{2}\" maxlength="14" id="cpf" required>
+                
+                <br><br>
+                
+                <legend> Telefone:</legend>
+                <label for="telefone"></label>
+                <input type="tel" id="telefone" required>
+                
+                <br><br>
+                
+                <legend> Data de Nascimento:</legend>
+                <label for="idade"></label>
+                <input type="date" id="idade" required>
+                
+                <br><br>
+                
+                <legend> Endereço</legend>
+                <label for="endereço"></label>
+                <input type="text" id="endereço" required>
+                
+                <br><br>
+                
+                <legend> CEP</legend>
+                <label for="cep"></label>
+                <input type="text" id="cep" required>
+                
+                <br><br>
+                
+                <legend> Cidade:</legend>
+                <label for="cidade"></label>
+                <input type="text" id="cidade" required>
+                
+                <br><br>
+                
+                <legend> Endereço:</legend>
+                <label for="endereço"></label>
+                <input type="text" id="endereço" required>
+                
+                <br><br>
+                
+                <legend> Email:</legend>
+                <label for="email"></label>
+                <input typr="email" id="email" required>
+                
+                <br><br>
+                
+                <legend> Senha:</legend>
+                <label for="senha"></label>
+                <input typr="password" id="senha" required>
+                
+                <br><br>
+                
+                <input type="submit" value="Enviar cadastro">
+            </form>
+        </section>
+    </main>
+</body>
+</html>
